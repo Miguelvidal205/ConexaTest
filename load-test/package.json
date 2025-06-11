@@ -1,0 +1,14 @@
+{
+  "name": "load-test",
+  "version": "1.0.0",
+  "description": "Load test para conexa",
+  "main": "index.js",
+  "scripts": {
+    "test:k6": "k6 run petstore.test.ts"
+  },
+  "author": "Miguel Vidal",
+  "license": "ISC",
+  "dependencies": {
+    "@types/k6": "^1.0.2"
+  }
+}
