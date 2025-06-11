@@ -1,3 +1,4 @@
+Health Check que se puede ejecutar periodicamente y validar el estado de las API
 ![image](https://github.com/user-attachments/assets/e8107910-e386-44a2-b183-15e087794569)
 
 Detalles del run de Jest en la terminal. Algunos estan fallando porque esperan 200 y por lo inestable de la API a veces devuelve 404. En otros casos se espera un 404 y la API devuelve 500 lo que indica que no estan bien manejadas las excepciones
