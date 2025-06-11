@@ -1,14 +1,14 @@
 {
-  "name": "load-test",
+  "name": "load-test-js",
   "version": "1.0.0",
-  "description": "Load test para conexa",
-  "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test:k6": "k6 run petstore.test.ts"
+    "k6": "k6 run --summary-export=report.json allEndpointsStatusCheck.k6.js",
+    "convert": "node convert-report.js",
+    "test": "jest",
+    "full": "npm run k6 && npm run convert && npm test"
   },
-  "author": "Miguel Vidal",
-  "license": "ISC",
-  "dependencies": {
-    "@types/k6": "^1.0.2"
+  "devDependencies": {
+    "jest": "^29.6.1"
   }
 }

@@ -1,0 +1,14 @@
+{
+  "status_200_count": 167,
+  "status_404_count": 73,
+  "status_500_count": 0,
+  "inconsistent_response_count": 0,
+  "checks_total": 0,
+  "per_endpoint": {
+    "put_pet_status_200": 60,
+    "post_pet_status_200": 60,
+    "get_pet_id_status_404": 60,
+    "delete_pet_id_status_200": 47,
+    "delete_pet_id_status_404": 13
+  }
+}
